@@ -27,7 +27,7 @@ body {
   left: 0px;
   top: 0px;
 
-  background: url(image-product-desktop.jpg);
+  background: url("./Images/image-product-mobile.jpg");
   border-radius: 10px 10px 0px 0px;
 }
 
