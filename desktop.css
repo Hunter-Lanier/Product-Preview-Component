@@ -25,6 +25,7 @@ body {
   top: 0px;
 
   background: url("./Images/image-product-desktop.jpg");
+  background-size: cover;
   border-radius: 10px 0px 10px 10px;
 }
 
