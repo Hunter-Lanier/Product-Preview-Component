@@ -1,0 +1,154 @@
+:root {
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background: #f2ebe3;
+}
+
+.product-container {
+  position: absolute;
+  width: 600px;
+  height: 450px;
+  left: 423px;
+  top: 175px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.product-image {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  left: 0px;
+  top: 0px;
+
+  background: url(image-product-desktop.jpg);
+  border-radius: 10px 0px 10px 10px;
+}
+
+.product-info-container {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  left: 300px;
+  top: 0px;
+}
+
+.product-category {
+  position: absolute;
+  width: 93px;
+  height: 15px;
+  left: 31px;
+  top: 32px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.42em;
+
+  color: #1e1e1e;
+}
+
+.product-name {
+  position: absolute;
+  width: 191px;
+  height: 96px;
+  left: 33px;
+  top: 67px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 104.3%;
+  /* or 32px */
+
+  letter-spacing: 0.015em;
+
+  color: #1c232b;
+}
+
+.product-description {
+  position: absolute;
+  width: 224px;
+  height: 86px;
+  left: 32px;
+  top: 190px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+
+  color: #1c232b;
+}
+
+.product-price {
+  position: absolute;
+  width: 127px;
+  height: 39px;
+  left: 32px;
+  top: 305px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #3c8067;
+}
+
+.product-original-price {
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  left: 176px;
+  top: 317px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.5px;
+  line-height: 15px;
+  text-decoration-line: line-through;
+  color: #6c7289;
+}
+
+.product-add-to-cart-button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+  position: absolute;
+  width: 236px;
+  height: 48px;
+  left: 32px;
+  top: 370px;
+
+  background: #3c8067;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
